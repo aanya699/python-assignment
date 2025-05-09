@@ -1,0 +1,23 @@
+# Problem Statement: Write a Python program that does the following:
+# 1.  Takes two numbers as input from the user.
+# 2.  Performs the basic mathematical operations on these two numbers:
+# o	Addition
+# o	Subtraction
+# o	Multiplication
+# o	Division
+# 3.  Displays the results of each operation on the screen.
+
+
+a1=input("Enter the first number: ")
+a1=int(a1)
+a2=input("Enter the second number: ")
+a2=int(a2)
+
+a3=a1+a2
+a4=a1-a2
+a5=a1*a2
+a6=a1/a2
+print("Addition: ",a3)
+print("Subtraction: ",a4)
+print("Multiplication: ",a5)
+print("Division: ",a6)
